@@ -11,10 +11,10 @@ console.log(age);
 mileage = parseInt(prompt('Inserisci i Kilometri da percorrere'));
 console.log(mileage);
 
+// Anteprima biglietto
+
 FirstPrice = mileage * priceKm;
 console.log(FirstPrice);
-
-// Anteprima biglietto
 
 document.getElementById('specialprice').innerText = FirstPrice.toFixed(2) + '€';
 
