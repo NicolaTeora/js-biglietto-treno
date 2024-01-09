@@ -22,10 +22,10 @@ document.getElementById('specialprice').innerText = FirstPrice.toFixed(2) + '€
 let Discount
 
 if (age < 18){
-    Discount = FirstPrice - (FristPrice * 0.2);
+    Discount = FirstPrice - (FirstPrice * 0.2);
     
 } else if(age > 65) {
-    Discount = FirstPrice - (FristPrice * 0.4);
+    Discount = FirstPrice - (FirstPrice * 0.4);
 }
 console.log(Discount);
 
