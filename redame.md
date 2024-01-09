@@ -15,3 +15,19 @@ secondo queste regole:
 - va applicato uno sconto del 40% per gli over 65
 
 L'output del <u><b>prezzo finale</b></u> va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
+
+## Svolgimento:
+
+Come prima opzione inserire le informazioni iniziali:
+
+- inserire **età**
+- inserire **Kilometri da percorrere**
+
+come dopodichè definisco il prezzo <u>iniziale</u> del biglietto in base ai **Kilometri da percorrere**:
+ 
+ - **Kilometri da percorrere** * **costo definito** (0.21€)
+
+poi, ne calcolo il <u>costo scontato</u> in base all'**età** richiesta inizialmente.
+Se <18 avra il 20% oppure se  >65 avra il 40% .
+
+All fine si mostrerà il prezzo finale.
