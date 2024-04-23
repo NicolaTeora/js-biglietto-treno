@@ -26,7 +26,7 @@ if (age < 18) {
 } else if (age > 65) {
   Discount = FirstPrice - FirstPrice * 0.4;
 }
-console.log(Discount);
+console.log(Discount.toFixed(2));
 
 // prezzo scontato
 
